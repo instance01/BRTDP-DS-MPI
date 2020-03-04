@@ -10,6 +10,8 @@ Watch it visit only a small part of the whole state space!
 
 ![States visited by BRTDP](https://raw.githubusercontent.com/instance01/osmnx-mdp/master/.github/brtdp_band2.png)
 
+[1] McMahan, H. Brendan, Maxim Likhachev, and Geoffrey J. Gordon. "Bounded real-time dynamic programming: RTDP with monotone upper bounds and performance guarantees." Proceedings of the 22nd international conference on Machine learning. ACM, 2005.
+
 ## osmnx\_mdp
 
 This is basically a stripped down version of [osmnx\_mdp](https://github.com/instance01/osmnx-mdp), which solves routing with uncertainty using Markov decision processes.
@@ -30,5 +32,3 @@ cd BRTDP_DS_MPI
 setup
 run
 ```
-
-[1] McMahan, H. Brendan, Maxim Likhachev, and Geoffrey J. Gordon. "Bounded real-time dynamic programming: RTDP with monotone upper bounds and performance guarantees." Proceedings of the 22nd international conference on Machine learning. ACM, 2005.
