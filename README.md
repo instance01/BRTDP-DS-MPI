@@ -18,7 +18,7 @@ This is basically a stripped down version of [osmnx\_mdp](https://github.com/ins
 
 I decided to keep everything intact so it is clear how BRTDP is used. In this case, a single simulation of an agent trying to get from A to B on the Munich map using BRTDP.
 
-Basically, `BRTDP\_DS\_MPI/algorithm/cpp\_brtdp.cpp` has the main implementation and `BRTDP\_DS\_MPI/simulation.pyx` applies BRTDP.
+Basically, `BRTDP_DS_MPI/algorithm/cpp_brtdp.cpp` has the main implementation and `BRTDP_DS_MPI/simulation.pyx` applies BRTDP.
 
 Running/Development:
 ```
